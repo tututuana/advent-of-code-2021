@@ -54,7 +54,7 @@ def Day03(input):
 	print(f"Part 2: {oxygen * co2}")
 
 
-if __name__ == "__main__":
-    with open("input.txt", "r") as f:
-        input = f.read().splitlines()
-    Day03(input)
+
+with open("input.txt", "r") as f:
+    input = f.read().splitlines()
+Day03(input)
