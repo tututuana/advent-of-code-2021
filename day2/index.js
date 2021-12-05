@@ -2,7 +2,7 @@ const fs = require("fs")
 
 function read_data() {
     var output = [];
-    var data = fs.readFileSync("text.txt", "utf8");
+    var data = fs.readFileSync("input.txt", "utf8");
     data.split("\n").forEach(function(line) {
         output.push(line.split(" "));
     });
