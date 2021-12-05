@@ -1,5 +1,5 @@
 def read_data():
-    with open("text.txt", "r") as f:
+    with open("input.txt", "r") as f:
         data = f.read().split("\n")
     return data
 
