@@ -51,12 +51,11 @@ def part2(matrix):
     
     return res
 
-if __name__ == '__main__':
-    with open('input.txt') as f:
-        matrix = []
+with open('input.txt') as f:
+    matrix = []
 
-        for line in f.readlines():
-            matrix.append([int(x) for x in line.strip()])
+    for line in f.readlines():
+        matrix.append([int(x) for x in line.strip()])
 
-        print(part1(matrix))
-        print(part2(matrix))
+    print(part1(matrix))
+    print(part2(matrix))
